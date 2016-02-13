@@ -1,6 +1,6 @@
 # Instruction
-This plugin map `gag` to do Ag search in normal mode.
+This plugin map `gm` to repeat macro.
 
 # Example
-- `gagiw` to search the word, `*` is mapped to a shortcut for that.
-- `gagi'` to search the words inside single quotes.
+- `gmm` to repeat macro at current line.
+- `gmap'` to reapeat macro to all the lines acround the paragraph.
