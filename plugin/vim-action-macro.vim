@@ -8,7 +8,6 @@ endif
 let g:loaded_vim_action_macro = 1
 
 function! s:macro(mode) abort
-  echom 'RUNING'
   if a:mode == 'V' || a:mode == ''
     silent execute "'<,'>normal @q"
   else
