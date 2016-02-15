@@ -2,7 +2,7 @@
 " Maintainer:   Chun Yang <http://github.com/Chun-Yang>
 " Version:      1.0
 
-if exists("g:loaded_vim_action_macro ") || &cp || v:version < 700
+if exists("g:loaded_vim_action_macro") || &cp || v:version < 700
   finish
 endif
 let g:loaded_vim_action_macro = 1
